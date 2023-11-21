@@ -1,0 +1,142 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD File Synchronization
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD File Synchronization
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD File Synchronization
+    internal_properties : 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
+    configuration_id : 13735405204232593931
+    type : 1
+    generation_name : WD File Synchronization
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\description.ico
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4acc5213000f194b
+  elements :
+   -
+     name : GlobalProcedures
+     identifier : 0x3dd8f74950bbb5fa
+     internal_properties : CAAAAAgAAADOVCZ6yfa+8f6N1jjRFufrPK07E0E9H5s7V6ht7F89uwXNu7NinnDkl4F7Rc0D//HbWw==
+     physical_name : .\GlobalProcedures.wdg
+     type : 7
+   -
+     name : WIN_SYNCHRONIZATION
+     identifier : 0x3dd8f7477856b5da
+     internal_properties : CAAAAAgAAABk4kxoVwwkx5BjMOZvPjFhuo+JuTKf6r74OvJG63+VC+E9J9dM9Mq+vWdRr3dpEYdx8Q==
+     physical_name : .\WIN_SYNCHRONIZATION.wdw
+     type : 2
+   -
+     name : WIN_PROJECT
+     identifier : 0x3dd8f7486144b5ea
+     internal_properties : CAAAAAgAAAD/W9fL+KUNHim8xQv85OCQTTqQkF2O1s7Mc6mqsWmtI5Vv26N3gV3ThrAqlh7SriLqag==
+     physical_name : .\WIN_PROJECT.wdw
+     type : 2
+   -
+     name : COL_Synchronization
+     identifier : 0x4829b9d7003ac800
+     internal_properties : CAAAAAgAAAD/WUF6CYbhVoA0L2x46OUP+tqkuD6eq4ES2PDjgtrR0ofMvsFvHQafpxW65vCBAul6
+     physical_name : .\COL_Synchronization.wdg
+     type : 7
+   -
+     name : IW_TABLE_CONTENT
+     identifier : 0x4829f6040051d8a3
+     internal_properties : CAAAAAgAAABTPQkF1vO7OGDUvXCcokOfHSG4uE2wGL2BFS5hz3cw8lZRq+r4FtWcQk6ZJgnhXkXW
+     physical_name : .\IW_TABLE_CONTENT.wdw
+     type : 8
+   -
+     name : WIN_AUTOMATIC_PROCESS
+     identifier : 0x3dd8f7446582b57d
+     internal_properties : CAAAAAgAAAAdeXUplsNrdMOSL/EKUApOs4zu3hfwakVcIRBSzZ3x590zE/sp17etrJYA+Lgo0MAICA==
+     physical_name : .\WIN_AUTOMATIC_PROCESS.wdw
+     type : 2
+   -
+     name : TEST_GlobalProcedures
+     identifier : 0x427a4e1b00411b65
+     internal_properties : CAAAAAgAAACKgPKWFVLahUIRqnyVzvu/gPH/N3xw0ulKJNV5Aw8F+80lA4ueWjQoKxWPaSmnU0WPlw==
+     physical_name : .\TEST_GlobalProcedures.wxt
+     type : 17
+  other_elements :
+   -
+     physical_name : .\Description.gif
+  analysis : .\WD File Synchronization.ana\WD File Synchronization.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ wd_style_sheet : .\WD Synchronizing files.sty
+ code_elements :
+  internal_properties : CAAAAAgAAADvgD+E8iaIgF0ZGUoLNzTuKt9d64BXAhhCgkdcup0up91DgQwwu+7RjnwTMZVrTUn2WuXkXSYQH2xMVvDORXErFJr5B36xZO2H
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACSXXbWt1YdCDfWy+4uA8ybb8AVqRjhFBZN8z/rgfOOywPIUE1hgUdHwoKTsfF+fzhzAOsz14M/Nj0KuNPF3g2BmoXYBTDkzWKry1hOm17L4/CPMgs7qzd9ZXd1dOrNiH8MU2EV7QfS6YJrgw==
+     code : |1+
+      EXTERN "winconst.wl"
+      
+      GLOBAL
+      	gbAuto is boolean 				// to True if mode without interface
+      	gbDeletion is boolean = True	// to True for an identical copy
+      	gbCrash is boolean = True		// True if the more recent destination files are overwritten
+      	gbSubDir is boolean = True		// move down in the sub-directories
+      	gsCommandLine is string 		// command line
+      LOCAL
+      
+      // pass by command line
+      // -> project name
+      // -> * for all projects
+      gsCommandLine = CommandLine()
+      // remove the /
+      gsCommandLine = gsCommandLine[[2 TO]]
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD File Synchronization
+     identifier : 0x4acc5213001419e7
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

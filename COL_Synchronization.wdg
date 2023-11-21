@@ -1,0 +1,471 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Synchronization
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x186d148d012760b3
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAACfB38jfX/fqvxlmbJQ+OnlQJlTI9qoCwdvRJHHnm5QM6wsWGeWfY+Zk5y911xgCo9Un4GZVRw5kXY9ZV/Y5eofRVS9252JA/znAc/qbQJPphipz0mqZ+4JF2CF2wuq
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      garrDestinationFileToCopy is array of strings
+      garrDestinationFileToDelete is array of string
+      
+      PRIVATE
+      // Array of source and destination files
+      garrDestinationFiles 	is ASSOCIATIVE ARRAY of dateheures
+      garrSourceFiles 			is ASSOCIATIVE ARRAY of dateheures
+      
+      // Names of directories
+      gsNameDestinationDirectory 	is string
+      gsSourceDirectoryName 		is string
+      
+      // Management of sub-directories
+      gbAnalyzeSubDirectories	is boolean
+      
+      // Managing exceptions
+      garrExceptionDirectories	is array of strings
+      garrExceptionExtensions		is array of strings
+     type : 720896
+  procedures :
+   -
+     name : AnalyzeDirectories
+     procedure_id : 1760085625214099635
+     type_code : 15
+     code : |1-
+      // Summary: Analyzes the synchronization
+      // Parameters:
+      //	sSourceDirectoryName (ANSI string): Path of source directory
+      //	sDestinationDirectoryName (ANSI string): Path of destination directory
+      //	bAnalyzeSubDirectory (boolean): True to analyze the sub-directories, False otherwise
+      //	bOverwriteMoreRecentFiles (boolean): True to overwrite the different files even if they are more recent, False otherwise
+      // Return value:
+      // 	boolean: // 	None
+      //
+      PROCEDURE AnalyzeDirectories(sSourceDirectoryName is string, sNameDestinationDirectory is string, bAnalyzeSubDirectory is boolean, bOverwriteMoreRecentFiles is boolean)
+      
+      // Local variables
+      bSourceMode is boolean
+      
+      // Initialize the arrays
+      ArrayDeleteAll(garrDestinationFiles)
+      ArrayDeleteAll(garrSourceFiles)
+      ArrayDeleteAll(garrDestinationFileToCopy)
+      ArrayDeleteAll(garrDestinationFileToDelete)
+      
+      // Check the directories
+      IF _bVerifyDirectories(sSourceDirectoryName,sNameDestinationDirectory) = False THEN	
+      	RESULT False
+      END
+      
+      // Store directories
+      gsNameDestinationDirectory = sNameDestinationDirectory
+      gsSourceDirectoryName = sSourceDirectoryName
+      gbAnalyzeSubDirectories = bAnalyzeSubDirectory
+      
+      // Create a stopwatch to update the interface
+      ChronoStart(1)
+      
+      // Analyze the source directory
+      bSourceMode = True
+      fListFile(sSourceDirectoryName+["\"]+"*.*", _AnalyzeDirectories,&bSourceMode)
+      
+      // Analyze the destination directory
+      bSourceMode = False
+      fListFile(sNameDestinationDirectory+["\"]+"*.*", _AnalyzeDirectories,&bSourceMode)
+      
+      // Perform the comparison
+      _DetectIfCopy(bOverwriteMoreRecentFiles)
+      _DetectIfDelete()
+      
+      // Sort the files
+      ArraySort(garrDestinationFileToCopy,asAscending)
+      ArraySort(garrDestinationFileToDelete,asAscending)
+      
+      // Stop the stopwatch
+      ChronoEnd(1)
+      
+      // The analysis is successfully performed by default
+      RESULT True
+     type : 458752
+   -
+     name : _AnalyzeDirectories
+     internal_properties : CAAAAAgAAADWIdKkspoGqThYl6mWlFseAfZm2q4B5eaCZOxxaXLSU/zRe4KpjDDxQjoWUP5YuQ6i0r7jPkgt45qmVaZ0Bsx56VJYNHhwjzbgiKIXH/TLuElGJhg4DfIRnzRvt3Jnn/7uNcZWnyDsFxveqZIbG3Zb5LI4iTcY24B7eAc70HB4pRU/ZyWWAQDdi+CicrfbTmo4YPvyLaY=
+     procedure_id : 1760085625214165171
+     type_code : 15
+     code : |1-
+      // Summary: Analyzes a directory
+      // Parameters:
+      //	sFilePath (ANSI string): Analyzed directory
+      //	sFileName (ANSI string): Name of analyzed file
+      //	nChange (integer): flag for changing directory
+      //	bPointerModeSource (integer): Pointer on the boolean indicating whether a source or destination directory is analyzed
+      // Return value:
+      // 	boolean: True if the analysis will be continued, False otherwise
+      //
+      PROCEDURE _AnalyzeDirectories(sFilePath is string, sFileName is string, nChange is int, bSourceModePointer is int)
+      
+      // Local variables
+      sExtension 			is string
+      dFileDateTime	is datetime
+      bSourceBrowseMode is boolean
+      sRelativeFilePath	is string
+      
+      // Retrieve the browse mode of the source
+      Transfer(&bSourceBrowseMode, bSourceModePointer, 4)
+      
+      // if change of directory
+      IF nChange = 1 THEN
+      	Message("Browse the directory [%sFilePath%]")
+      	
+      	//if the user does not want to browse the sub-directories, exit
+      	IF gbAnalyzeSubDirectories=False THEN	
+      		RESULT False
+      	END
+      END
+      
+      // Calculate the relative path
+      IF bSourceBrowseMode = True THEN
+      	sRelativeFilePath = Replace(sFilePath+sFileName, gsSourceDirectoryName, "")
+      ELSE
+      	sRelativeFilePath = Replace(sFilePath+sFileName, gsNameDestinationDirectory, "")	
+      END
+      
+      // if this directory is not an exception
+      IF _bDirectoryIsException(sRelativeFilePath)=False _AND_ _bDirectoryIsException(sFilePath)=False THEN
+      	// extension of the file
+      	sExtension = fExtractPath(sFilePath+sFileName,fExtension)	
+      	
+      	// if this file is not an exception
+      	IF ArraySeek(garrExceptionExtensions,asBinary+tccIgnoreCase,sExtension) <=0 _AND_ ...
+      				ArraySeek(garrExceptionExtensions,asBinary+tccIgnoreCase,"*"+sExtension) <=0 THEN
+      		// date and time of the file
+      		dFileDateTime = fDate(sFilePath+sFileName)+fTime(sFilePath+sFileName)
+      		
+      		// Add the file		
+      		IF bSourceBrowseMode = True THEN
+      			garrSourceFiles[sRelativeFilePath]  = dFileDateTime
+      		ELSE
+      			garrDestinationFiles[sRelativeFilePath]  = dFileDateTime
+      		END
+      	END
+      END
+      
+      // Force the display to be refreshed every 2 seconds
+      IF ChronoValue(1) >= 2000 THEN
+      	ChronoEnd(1)
+      	WinRedraw()
+      	ChronoStart(1)
+      END
+      
+      // Continue the browse by default
+      RESULT True
+     type : 458752
+   -
+     name : _bDirectoryIsException
+     procedure_id : 1760085625214230707
+     type_code : 15
+     code : |1-
+      // Summary: Checks whether a directory is an exception
+      // Parameters:
+      //	sDirectory (ANSI string): Name of directory
+      // Return value:
+      // 	boolean: True if the directory is an exception directory, False otherwise
+      //
+      PROCEDURE _bDirectoryIsException(sDirectory is string)
+      
+      // Local variables
+      sExceptionDirectory is string
+      
+      // if it is an exception directory
+      FOR ALL ELEMENT sExceptionDirectory of garrExceptionDirectories
+      	IF sExceptionDirectory<>"" THEN
+      		IF sExceptionDirectory~=Left(sDirectory,Length(sExceptionDirectory)) THEN
+      			RESULT True
+      		END
+      	END
+      END
+      
+      
+      
+      // The directory is not an exception by default
+      RESULT False
+     type : 458752
+   -
+     name : _DetectIfCopy
+     procedure_id : 1760085625214296243
+     type_code : 15
+     code : |1-
+      // Summary: Detects the copies required to synchronize the directories
+      // Parameters:
+      //	bOverwriteMoreRecentFiles (boolean): True to overwrite the different files even if they are more recent, False otherwise
+      // Return value:
+      // 	None
+      //
+      PROCEDURE _DetectIfCopy(bOverwriteMoreRecentFiles is boolean)
+      
+      // Local variables
+      nSubscript 		is int
+      bFileToCopy is boolean
+      nNbLines 		is int
+      nPercentage 	is int
+      sCurrentFile is string
+      dtCurrentFileDateTime 		is datetime
+      dtDestinationFileDateTime 	is datetime
+      
+      // Initialize the variables
+      nNbLines = garrSourceFiles..Occurrence
+      nSubscript = 1
+      
+      // Browse the source files
+      FOR ALL ELEMENT dtCurrentFileDateTime,sCurrentFile of garrSourceFiles
+      	// display the percentage
+      	nPercentage = 100*nSubscript/nNbLines
+      	Message("Comparing files: [%nPercentage%]%")
+      	
+      	// Find this file in the list of destination files
+      	IF garrDestinationFiles[sCurrentFile]..Exist = True THEN
+      		
+      		// The file must not be copied by default
+      		bFileToCopy = False		
+      		dtDestinationFileDateTime = garrDestinationFiles[sCurrentFile]
+      		
+      		// if the source file is more recent
+      		IF dtCurrentFileDateTime>dtDestinationFileDateTime THEN
+      			bFileToCopy = True
+      		ELSE
+      			// if the destination file is more recent	
+      			
+      			// if the user wants to overwrite the most recent destination files
+      			IF bOverwriteMoreRecentFiles THEN
+      				bFileToCopy = True
+      			ELSE
+      				bFileToCopy = False
+      			END
+      		END
+      		
+      	ELSE
+      		// the destination file is not found	
+      		bFileToCopy = True
+      	END
+      	
+      	// if this file must be copied
+      	IF bFileToCopy THEN
+      		ArrayAddLine(garrDestinationFileToCopy,sCurrentFile)
+      	END
+      	nSubscript++
+      END
+     type : 458752
+   -
+     name : _DetectIfDelete
+     procedure_id : 1760085625214361779
+     type_code : 15
+     code : |1+
+      // Summary: Detects the files to delete from the source directory
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE _DetectIfDelete()
+      
+      // Local variables
+      sCurrentFile	 			is string
+      dtCurrentFileDateTime	is datetime
+      nPercentage 				is int
+      
+      // the remaining files are those to delete
+      nNbFiles is int = garrDestinationFiles..Occurrence
+      
+      // list the files to delete
+      nSubscript is int = 1
+      
+      // Browse the destination files
+      FOR ALL ELEMENT dtCurrentFileDateTime,sCurrentFile of garrDestinationFiles
+      
+      	// display the percentage
+      	nPercentage = 100*nSubscript/nNbFiles
+      	Message(<§@1829b9a40047001c0010§>)
+      	
+      	// Find this file in the list of source files
+      	IF garrSourceFiles[sCurrentFile]..Exist = False THEN
+      		// This file must be deleted
+      		ArrayAddLine(garrDestinationFileToDelete,sCurrentFile)		
+      	END
+      	nSubscript++
+      END
+     type : 458752
+   -
+     name : _bVerifyDirectories
+     procedure_id : 1760085625214427315
+     type_code : 15
+     code : |1-
+      // Summary: Check the directories
+      // Parameters:
+      //	sSourceDirectoryName (ANSI string):Path of source directory
+      //	sNameDestinationDirectory (ANSI string):Path of destination directory
+      
+      // Return value:
+      PROCEDURE PRIVATE _bVerifyDirectories(sSourceDirectoryName is string, sNameDestinationDirectory is string)
+      
+      // Local variables
+      sDiskName is string
+      
+      Message(<§@1829b9a40047001c0005§>)
+      
+      // Check the source disk
+      sDiskName = fExtractPath(sSourceDirectoryName,fDrive)
+      IF fDriveReady(sDiskName)=False THEN
+      	ErrorThrow(1,"The [%sDiskName%] drive is not connected!")
+      	RESULT False
+      END
+      
+      // Check the destination disk
+      sDiskName = fExtractPath(sNameDestinationDirectory,fDrive)
+      IF fDriveReady(sDiskName)=False THEN
+      	ErrorThrow(2,"The [%sDiskName%] drive is not connected!")
+      	RESULT False
+      END
+      
+      // Test the source directory
+      IF fDirectoryExist(sSourceDirectoryName)=False THEN
+      	ErrorThrow(3,StringBuild(<§@1829b9a40047001c0007§>, sSourceDirectoryName))
+      	RESULT False
+      END
+      
+      // Create the destination directory if not found
+      IF fDirectoryExist(sNameDestinationDirectory)=False
+      	IF YesNo(StringBuild(<§@1829b9a40047001c0007§>,sNameDestinationDirectory), <§@1829b9a40047001c0008§>) THEN
+      		IF fMakeDir(sNameDestinationDirectory)=False THEN			
+      			ErrorThrow(4,"Unable to create the directory [%sNameDestinationDirectory%]")
+      			RESULT False
+      		END
+      	ELSE
+      		ErrorThrow(4,"Unable to create the directory [%sNameDestinationDirectory%]")
+      		RESULT False
+      	END
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : ApplyFileSynchronization
+     procedure_id : 1760085625214492851
+     type_code : 15
+     code : |1-
+      // Summary: Applies the synchronization to a file
+      // Parameters:
+      //	sFileName (ANSI string): Relative name of file to synchronize
+      // Return value:
+      // 	boolean: True if the synchronization was successfully performed, False otherwise
+      //
+      PROCEDURE ApplyFileSynchronization(sFileName is string)
+      
+      // Local variables
+      nSubscript is int
+      sSourceFile is string
+      sDestinationFile is string
+      sDestinationDirectory	is string
+      
+      // Build the full paths 
+      sSourceFile = gsSourceDirectoryName+["\"]+sFileName
+      sDestinationFile = gsNameDestinationDirectory+["\"]+sFileName
+      
+      // Check whether it is a copy
+      nSubscript = ArraySeek(garrDestinationFileToCopy,asBinary,sFileName)
+      IF nSubscript>0 THEN
+      	// It's a copy	
+      	
+      	// Create the destination directory if necessary
+      	sDestinationDirectory = fExtractPath(sDestinationFile,fDrive+fDirectory)
+      	IF fDirectoryExist(sDestinationDirectory) = False THEN
+      		fMakeDir(sDestinationDirectory)
+      	END
+      	
+      	// copy the file
+      	IF fCopyFile (sSourceFile,sDestinationFile) THEN 
+      		RESULT True
+      	END
+      	
+      	// the copy fails by default
+      	RESULT False	
+      END
+      
+      // Check whether it is a deletion
+      nSubscript = ArraySeek(garrDestinationFileToDelete,asBinary,sFileName)
+      IF nSubscript>0 THEN
+      	// It's a deletion
+      	IF fDelete(sDestinationFile) THEN 
+      		RESULT True
+      	END
+      	
+      	// the deletion fails by default
+      	RESULT False
+      	
+      END
+      
+      // No operation is applied by default
+      RESULT False
+     type : 458752
+   -
+     name : DefineException
+     procedure_id : 1760085625214558387
+     type_code : 15
+     code : |1-
+      // Summary: Defines the exceptions
+      // Parameters:
+      //	arrListExceptionDirectories (array): Array of exception directories
+      //	arrListExceptionExtensions (array): Array of exception extensions
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DefineException(arrListExceptionDirectories is array of string, arrListExceptionExtensions is array of string)
+      
+      // Store exceptions
+      garrExceptionDirectories = arrListExceptionDirectories
+      garrExceptionExtensions = arrListExceptionExtensions
+      
+      // Sort the array to allow the dichotomous searches
+      ArraySort(garrExceptionDirectories,asAscending)
+      ArraySort(garrExceptionExtensions,asAscending)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1829b9a40047001c
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Checking directories.
+     index : 5
+   -
+     text :
+      en-GB : "The [%sDiskName%] drive is not connected!"
+     index : 6
+   -
+     text :
+      en-GB : "%1 directory not found."
+     index : 7
+   -
+     text :
+      en-GB : Do you want to create it?
+     index : 8
+   -
+     text :
+      en-GB : "Comparing files: [%nPercentage%]%"
+     index : 16
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

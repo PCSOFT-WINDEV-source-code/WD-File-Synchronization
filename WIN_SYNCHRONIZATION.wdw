@@ -1,0 +1,1207 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SYNCHRONIZATION
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : WD File Synchronization
+ subtype : 0
+window :
+ name : WIN_SYNCHRONIZATION
+ identifier : 0x286d148a0a44577b
+ internal_properties : CAAAAAgAAAAajMTUi2jhMfMHbYjBZ3cp6N747+ci9wzjZOVzLst3Bdqr1cx70443ptsO3aCJvD4HwqDNH8ZKTKuArMiDcaEkSCLeBIaxJn9dQnel+Dw5qLrNPFormablI/wqrT+igxgIne1rljN1Aj98f1mnxrfR+IuV3MJJxn1KAoCog08xcKIplNrFVi9lLGifzoYkhlvmr4cOW+AhRNyyq17+yRG72BYkYWGaEa+b2oQqHxHyXMLFOkKKWGCkNbp7aQncf44exh1WTbE5IAW5P9XtrhERc5jnQQRTK4fpVmXv9QX3D7lBqnLnHi4k/Z27OmuaWD2LnLpdVXcPxvjDZueaWrJc10hmTxAk0AA0UO44KlGdywefdc3HvkjrNpPg99sVtlgUWiBg+SnpuOUwmRJINm8jJQbpkqbJD6aowIn47KiHdi+coTuuDhcNtFV+YBz27NxsP7+fVbEGTitro688L/lWPrlqnfNkcENIqdDwnv823NILykJMrfc7ElzmZQGLgENKMpcW8GiwiXd/QzUO60+ABkrNTdoAdju6ITrSx6+R/rAGW2iit5i1JPZJVfbydRK6IoGW1B0FIBd334/ulzY2vtzBFYhtp8vBiE2voox1HyEkxMd8iXtTvlVSHKVh1Tq0bCQG3jvUOkIvp2m3EFgtsSHoxk7wAm+Ntw6IhGrrXviSYSZENR3ATdNqFuQHZipZ8r9RQFWhnChyJDrSdTXarQTAEYpPoblw+ISCj9/D/e2Q8QrFiGnRb8oSarnnGQFso23lvA9bubuwan3SamePrjK6lRuVdpn2xdveUlzRaH0d8kpAroRvf1jvYwtyFyTa7UBbuYQY0RXC56+jDpq7SQtlaEbUijo3hW4kdpO1orojNJRHFj+OK0DHxz1bFqHIZwWrt5RYki3eoWWB
+ properties :
+  width : 502
+  height : 588
+  widthClient : 500
+  heightClient : 556
+ controls :
+  -
+    name : Fill_table
+    identifier : 0x286d148a0a45577b
+    internal_properties : CAAAAAgAAAB5SwuM9X6sqecudEWrII9CBilpRpd2077fOoZTSy3mZarURc/PFKJQW4z6t6tCHkIuKu9KiUdLVA9q6qZBCTaRTi4fZ4d3+Qq3ekK1Sec1y3Z4uxeTSixOS/cv2Xg6WGJ8Pt+4aHpcb2zVOSxzKwo8olrKtc9L8tIDDbkOGJLF/OEi4+TVpxT7zkRBwhwVNhPWU86d9Jne0WozfSrVpXKAzp1yUVMSmSby4K4t6oNnc6NXPApgWVyNFGtIH3uqqz9KHP2Hf0Y79SkZc4ih+6p61hgpCd3SzqNu42raqSa3Z9xotRoX3E4s/zT6ElMNrhv4Z6p+AZaQpz6FJ5/eA8MlcwFuzNXCFCCHt/AokZuvxp+4y2qruzBu5Lj7um4JDHJXA2OP/mhTpi1wf//643/1b7Px51sr9seQmm+QXt0NTr78tRHKxnXHxG1xKs1FQSBHvZkZs44nQ1XX+h+swS7aH0XDVoJiBfShRkLHw+q8vYoQB0Yyk7A7gtjx17Li+JqBiofscNAJ17xhDE5A3JX9KGyzzf4KfUAhZm9P1yviJ8iPn0W5uvRlOITO9E8Sw3Wabtk8emQL0uuk1+XrmhRHpUx1EQWypsFffZuOzmc1cTPdl/6dbAEty2eCuZ1Ev1alyTD3QwSDZEBeMXJeF3SKNAjqVf+yT0GOQaxIyN1Vo4/1uJKbv1AD9fWMyvD9DhV4bhwvZgZOji7cS3QQ9sB7D57La8E5P+QQonUTDHghxTKzLlV93pVIB9Ne2daLigPdYqLpLezFeRIE1HqKyXaYft/cEWjfzdj9Hq06OvqkfBa/nNqs1ioF80HsvryCgf8D5gToUIWHaTkpSLL9GpZ9aVmWBNpeJY4O6CffY0doOLlICEdPltaELUb26c7qQTB/EhMAgWKBuiFKggi5PslRQm64qgLUCNoWZEB2Jgc48xeC0IkDzXUWvyeLIzX5LVbgITHzjyiuidGJBNM4mWy7bX2PT8+9y61bUxNo75tMwyvkohdaWDrSn2794cs2sJbWFxTKoWKY0T/wss5+BljjMU4N+sh8jplvFemHCY4ejio3g5VStTK+WaLhuKWd337zmEWoGKS0GP9T+9Eq+zgC51uXLUCSCDyfugAGYg==
+    properties :
+     x : 400
+     y : 110
+     width : 94
+     height : 27
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         FillComparisonTable()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ListTable
+    identifier : 0x286d148a0a46577b
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 141
+     width : 488
+     height : 356
+    columns :
+     -
+       name : COL_ENABLED
+       identifier : 0x286d148a0a47577b
+       internal_properties : CAAAAAgAAAAM6AYTeuir3aBZEfHGIZfVqI4+dyCwExa6g0lu7blgVMLIY92wQnD58F0IWoe+YqeaGLxA4Nm+QSnEj8xcUVkUOaHgdORnG2GbLPb5JiyyNg5LIvYJgeecfkC5AqFGtD/cd2UuW7j6ff4eK/sdWtSI8Pyai8lzctVvX5FKD5MkVCItEmpLWsabYJNLB9Txaw==
+       type : 5
+       content :
+        internal_properties : CAAAAAgAAABXkNYBsVRPfOE6r+9IMubqQj9LhNYO0RYkAO62Qqm3tFNToHp7C+HcompPoO0nHQ3qp3ptugLrhi0fVpjWAKQj9XKoTY7skUAxqh/Gc5wiSMbaPrtu2076Es3N+S8t9S7Zsi59Dp2c67w2FGgfCP7/Jmj26Qe9enmm4vm3K6zBYk0fEW+OxxRIPnSMSw8cQOZp2XKzjFh8x9f5dvsCcXtMR+IgnzELKj/y0HjIjtt0B3nNQTR1691L+w8sVe17otriwhlDU8iYEiOseDtCiANnPTYltmoYv+nEAZ0y6tyRjMtD7o01I638EJlGHMZMH+rp8Md2HjGkptqM662CkoJoyac4/zRSCp4JT7eIEcexZlVbNB5mbGlsug2N9ahX6gDLCTaXrvm7l0uw8wIyfLAQcF56ZsGwfCOWvBHbuxg6A7OP07i+c55P4bLriSqA1eXNuHOFswVDwAW0No4wcBmDdm91odKb11PAHGlB6XKokzHtdOGqOghHdbz+LegXLKiqt6TvXC2Lyjhuh8s2cl8Vk2bCYqLBOHwBfnsG2V3Yqa+GCQc3LLr9Sk5iB5bZ6/eMqmdDS2aySWuQYKNZ3FQo0Kql3unP0UTHsfO8ZwMGfyu4GQgxQniclYQmn5k0mXJkMeOBu7wY/Tw4sRJ+N4mO4Kq/2Pr/w7iin5rpoGVvRU7XNuNs2wvZU9Mdt1lafLTKOezm/rEOAUYPGfvVKrGpbA7kycbvnfPgjav4NHgNb0cvkGD1Yj++L2fQBJfLt7lflVqGwGJz1zGb9PcehTzFVgrmzGg=
+        options :
+         -
+           internal_properties : CAAAAAgAAACZ2nNNoNcq0CQOMUHaz5TYNxMCZWC6QYxp9OOAS5gisfGFpUq9b9l+oBtxP1JUQOVzTu5Kjj4QEQ==
+        type : 5
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 5
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1+
+            IF COL_REPORT = CST_FILE_TO_COPY THEN
+            	IF COL_ENABLED = True THEN
+            		gnFiletoCopy++
+            	ELSE
+            		gnFiletoCopy--
+            	END
+            ELSE
+            	IF COL_ENABLED = True THEN
+            		gnFiletoDelete++
+            	ELSE
+            		gnFiletoDelete--
+            	END
+            END
+            
+            ListingReview()
+            
+            
+            
+            
+           type : 17
+         -
+           type : 41
+     -
+       name : SET_FILE
+       identifier : 0x286d148a0a48577b
+       internal_properties : CAAAAAgAAACIbiR34ETb9/dU8llEIR/9Q3lLZkPPmMcMzf7EGnDQcU4hol8sx63fk63cchOKdUZ7sGl5JFOuiZwe95KNd1P9hbmQwuhKQxH3V6Ypq2Dg7ri+9y6H/lchf84P+XqYaLB+QxZ5yj3lUarROBSVPxwsCO9S3M2TrzBCVVaZgb5/YdsTMA6c+tnoIIk6zDUK/JJsyHB9s0u/Qq7/JdMZug==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAABSVYjoxIBKgL7ihC50efKftNzzbNo1QLEWoD+aGRfJkvjbAjgdCxhA1nSLAXO384r2qzCq5caFek/QDyuUv3K67ROk8K6fHFPCfwbX+l0608z0annL850I9KAtkQefV+YyRROKlfORmPWKrNMa/UqizXKTZHb6/lO461851DzJgtI7uqzgnM1CwgY8VsVHSbzl1aDEm+lwlHZLvCZ4zubiomUjeIlL7JS5jU9k3Dj8Q1AqNIb3P18OBOmkidIkL8wQHB2U1fiy/8TWtnV4JSdFE6fceS1BlcHjTwYonsvSa0dz0Y/d4GHBqgnz5jLrR+2LGPVF4YZDSLYL2nTJb/4nZjIVg+R/w8b33pEeihykH3XKubyEJ+k3tYAiWUVO/ft9Pytf39hfV9+yALwzvFTYZdwNj+gjgKpbMCQfDaWYM0o3LelZ6tjlM/k1yHkzgmex4yy8CHnrvpnMEcNua6EdEVGXITc9AltE6cZmx8L71IaauihuNlA6kE8OOuTK/YzPfvdc8JFiq4TNFw1A/nlhRJyOMDTgB/3A0lgntUDXR6hUPuJaZZNVmK4Ea/QEGYOYvIoS7YYvyQyt2D3D+ZdyXbBoXtxSw0NvTirMWE7zIWvpw+Tno1LVyGOF9B8KGmdePq0r9S+XIySG6lV27PJ0R68okl1bSigWqPl95/uY0S3X2TMcrjR6S4J9M93g3MUt8vpbPOiaQA3RE5iUYpqUzvQixJoByFjcmTZil0v0y2I31HcUvOKeVi+Af55myom4sv94Ye/dmmKl9bEz9V2VP8YPwvJu4OsORrHNJhNvmF1rx3c8MGhyyN7P5zuNKQeIbDqFyL4KznipmfV/UXb6necfAvXx+vR3x00/LdgLgTyySo7AJFJkb0QifMOS3az9+RF1UOly/npLbiAWYWVLB7vwNjB4m/oBxI7KRDAO9jEBxU8qBAxFIKoCTSqMF5/2e4IUvOrVDxypKd0kRLNiTTqkkQF7ocjYnsGUeGngy/2BsQxIr9xgbaDKHJH5zibOcvJCJtDxZ3CY
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+         -
+           type : 41
+     -
+       name : COL_REPORT
+       identifier : 0x286d148a0a49577b
+       internal_properties : CAAAAAgAAADfDadPsw1Rjx+klNeFGUbfYghozB8VNDpbshkJkw+Lw4e3uBdyv+j3YV4eAZC4Diu4iJ3A68Y+8wUX8QRuKw0glZL5vjyrPHUEVj6QC6IpnHGAaP5loNOMfrQ4K6lEpOqWnNZgU4S0p9dJ8hGwXtMMW2hXmaD0KlzhjTMmNmHf/3EU9cgYQleDZ4PtrD5Jd5QsSkNgk97S6nQV5yaT1hw=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAABSVYjoxIBKgL7ihC50efKftNzzbNo1QLEWoD+aGRfJkvjbAjgdCxhA1nSLAXO384r2qzCq5caFek/QDyuUv3K67ROk8K6fHFPCfwbX+l0608z0annL850I9KAtkQefV+YyRROKlfORmPWKrNMa/UqizXKTZHb6/lO461851DzJgtI7uqzgnM1CwgY8VsVHSbzl1aDEm+lwlHZLvCZ4zubiomUjeIlL7JS5jU9k3Dj8Q1AqNIb3P18OBOmkidIkL8wQHB2U1fiy/8TWtnV4JSdFE6fceS1BlcHjTwYonsvSa0dz0Y/d4GHBqgnz5jLrR+2LGPVF4YZDSLYL2nTJb/4nZjIVg+R/w8b33pEeihykH3XKubyEJ+k3tYAiWUVO/ft9Pytf39hfV9+yALwzvFTYZdwNj+gjgKpbMCQfDaWYM0o3LelZ6tjlM/k1yHkzgmex4yy8CHnrvpnMEcNua6EdEVGXITc9AltE6cZmx8L71IaauihuNlA6kE8OOuTK/YzPfvdc8JFiq4TNFw1A/nlhRJyOMDTgB/3A0lgntUDXR6hUPuJaZZNVmK4Ea/QEGYOYvIoS7YYvyQyt2D3D+ZdyXbBoXtxSw0NvTirMWE7zIWvpw+Tno1LVyGOF9B8KGmdePq0r9S+XIySG6lV27PJ0R68okl1bSigWqPl95/uY0S3X2TMcrjR6S4J9M93g3MUt8vpbPOiaQA3RE5iUYpqUzvQixJoByFjcmTZil0v0y2I31HcUvOKeVi+Af55myom4sv94Ye/dmmKl9bEz9V2VP8YPwvJu4OsORrHNJhNvmF1rx3c8MGhyyN7P5zuNKQeIbDqFyL4KznipmfV/UXb6necfAvXx+vR3x00/LdgLgTyySo7AJFJkb0QifMOS3az9+RF1UOly/npLbiAWYWVLB7vwNjB4m/oBxI7KRDAO9jEBxU8qBAxFIKoCTSqMF5/2e4IUvOrVDxypKd0kRLNiTTqkkQF7ocjYnsGUeGngy/2BsQxIr9xgbaDKHJH5zibOcvJCJtDxZ3CY
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+         -
+           type : 41
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 19
+      -
+        code : |1-
+         
+        type : 20
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : Up_date
+    identifier : 0x286d148a0a4a577b
+    internal_properties : CAAAAAgAAAAXKeZrVXmxqEo8q+xvSKCEFVEgKmdrnKxbVU5bpbpC9s6IgYO36nUhu7DJkGG28lCBkguSu5dntbiPlDhV0QTreZJtk1m+u1lqQd5lzm0rKrPds8siScmho9wOwYYwXx0nvYwP7ZGW2EFbnCmBr+6Y8wl5Qlm2eLQjTfIBVZa3Q2J49tr/H3MNHn4UhmEvy1kWybcQ38744jz0aVU9WvOsuRTCRn7ryKZ3M2xUmUlEjv3dJeHEBKTem63gFg+k5oSIBSuWh4NGkHWsz4aBFmrY66ZOtlcSmzgfKGxqU7jKtNxtMGoAKbafEaEEHMjm51utzUw6vQRmoOGHDPtg8K0jhAUOlkn/eP0BJZjsAW/esesLCsfQ2vdpCLALUg8dODDc0uoL7RoD9TcBtMBPI7Va7SRgIku954wuT09eX6nsDiXMKICLacwNpl0VSgNspw8NHVHUgeBvvgGNzzSAX7VfW51UWU8mAOOno7H51O+tX3/dgdFHzvUZW9agnqbkAWsNfZEqB08JjvWj9yWX0xqPiWQqaSHUxmjLRi5dg+1zwIe5+UtQYk+FZPwqBRFhrb+4QZYyrY/H4i/KEXCppZZ9LY9WnW5T3kOJObEqURTBZAYZEABSxXiBtl0RXaLqXo7ZVGnih1yECfcBgEppRbMuE6A3+2QVJbkSf8YHxs6PVy/k8Sys1rteR7Y1tDUhRhDfR4oz5jGe9+kZQm9KP9pzo10AUoRKlpGQUnFa+O4AAs1hcLlvQIiRKTVkxtzbRE2TKaTqHXzeHttJVVaxtR3P01kYsAQbaHOUg9UMsappTgHfPtU2S81EBlopRJOi5xiOTJeZpQ4mKGiaNjA+3mqNy2mQpCGbdMPx3EM+p9wWp5eCQdAaBxK8+RGv7q6N5K3K+Y6umu3rqdqRwAPmIN3cDuiPpeGVXI1aCD/Fu41P3Cw2ey84BX7rLEOOe8B5ryiWLMjm2CU9YPvs/5WnKarJnNMPCueyvpQ0/qp79zNbavJ7msalOH0sbSxurf6aPXjOzK6FCsK6sVittYtM7DzcA58PDOWfPpGtS3vFMYIkoIirDiqRa/+EweqtDXgjVab7KR9qgUsHec7/pkp5IF4=
+    properties :
+     x : 302
+     y : 501
+     width : 106
+     height : 27
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Check whether elements are found in the table
+         IF TableCount(ListTable)<=0 THEN
+         	RETURN
+         END
+         
+         // Update the selected files
+         Update()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_SOURCE_DIRECTORY
+    identifier : 0x286d148a0a4b577b
+    internal_properties : CAAAAAgAAAChFT7c+wJbCG1frsmr1b0WhnR8osaNU5OTd3v5LK7WRMeuhp+XwMuUhqo5S5k9k+6Cl3h5xz1eornLxSMJHpHK657adaik/DWdYMinFzb0byICKUkNmts25UXoPTEUVpoPXAFRgbjAqaKTp+HuJdDTHDe4o9L270tfiCtNHcjid9DyB5/rT2G6S+A8kkLowb0m6MZ+nLLJ2LYHCGtZuhErLA91ih5czJmJAs4hTJZfdBltT6AUDt+Hc09k3LR1SrNgjB30SZZyPfToUn642itOQ5p1xc47HQJXynflwdHOIMhhwyP2ry4HFOTfIQylDDoC9GihpWaKtG0EVzc46oxBYbxbNx01uCHJxy+M3o8AC3r1szBQLUaYahe8FVBhbHHzSnaHnUXLvnF2cNrB8QHpnMuVfSlsGmbbUJU6TiOKaqrty+0/+P5AT0J5sBTrt3P8VHQqktyP+mCKrdoYW6vWw5uctbmO0/rfD8Z3yTV3tMkvncT9T9ML/XGbUrZI9+2h3WWwAZ/Uo8/j33waptQQGAhghZY15TljgnYc/86y/HI5P/sgSKr707FgAy2xQFPfxucY3mNxlHaPLhSzxBbL5RkGBJyiaq0o33zl0ZOaaeVX7849ci3CwREaW/IuFThTMUVQ+aL6ndO12F7dbUJ3y8gx1ZxSm8u9BUG9sjEh+mZ3buLlFwFjEWenBpoj7Sw+O42W/yGm9tbqR7IEsGaHP7eJTiesleB3/ESaTzhFU+s5cFsb/rq2Hay5F0B20T2LBc6CGKb1r45c9Ly9OuNrENaGA261MyAG4BxJA6AXP1zgOzcMYp3PxnyOemXcNRTrg9cogVkLU7hkZBnrJMYMUW8EihRZYzRluDMqy1d1SDak6Q/2RMCTTMTa6q6DSNLtO7I3qWrkBum4FTFgHL9lOSSm1tThcpGP69iumslTaq/dhkoQkeQyBQCfv+khZ+eDs/CtuBIH34wc+ZrWMtMXXrglPzBwH2nUN21mkHosPfgfFi445aPFq6DCzhDW65zWfd9WgR0PcwQe573/jjPC60OO72ogzzLQmo2IDlb1IgMVhWLlh2fKmrSR0sN4IY4OfMMqtdUt1hyOGtvhc8Yy6+oMNuGRixa08H2yJ9rBrm7DkzumX/4LPTfXX9HZLgALBgkkoBOQPKFCmYO9PGMmzALhMK/ttd0tpAw/nmvc4Nk/Y7t2xn3jiQ==
+    properties :
+     x : 6
+     y : 57
+     width : 463
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_DESTINATION_DIRECTORY
+    identifier : 0x286d148a0a4c577b
+    internal_properties : CAAAAAgAAAA9pK6tB1fjASTQykqt9uzKdP5bhdqg/WGWbiuLBT3R3ioiDgV/MqPxt8/UVCY1cgiXg9IT2OCiYRPT/X02/UgTVU+5PFL7YH/y8Oj6i7fJdvKW7RxRXUB7FyQpBFu8IILo6QXQyjqgHp/ZScQEgiHL2oYnEfAXwOzGkCWsgzCUNrbpTPrjLZOe+FsTvRMCYgRf1Io0sUiCcurARDCv7fNpODIORR6EkwQU2SBe5LV/cbQyBMOGX183iYxfam867g6X8yBtLNehEcQz/l1eqD18+zgjU4gWHn1IFpbI7tx9f/vanWX3DwDbDHbAQ8BRialHGvZAf12eU+mNqKUC3DPC9BqBHQ29X1b9xkFM8c5rC/nCCEfzygDaivaA8r73OiQWzT8pfzVPipfQ8ZY3nWDhk4ToM35FM9SvtC0YW3gcs1BeHA9AHOuRt/nV0otFklmtG6/1wNNSyhj5IK+ZjGN0NQzkUNMuCYtHu0dN/sVJMB80NWwjWkMKEwe7enYozEDME54b/55Q2yZ6OTiabU+uYUVJXeaHKdpVYTmp3Hi92qQ9oV25H7J9GPW7gkVwbUU9wZ2M8jxMcIJBjFtR5AXyqb5Gav6jPNECAXQwTY3fc7TUsBu1/mrgHZ91O3OrVkybtBr48h0ugkPnNOjARpJiJZdhEmJfY1GfdpHxG2QVXS+/uNZHZdM+fCA7sWTQyt8ANgpKasn69UdWgAfKxgW8wjCOku3fRxmVA+/XEix4D05Fzbl1WhBmL43PAt39PPFOTnQrf9Xf3Vu1hCU1JHKe5ab9cwQOdbyMPs1XB8p2SLlzF06upQs/lhtFngoZe2YdyDu1b4hJziECn9HIHV4TRA/c5XHeHWGxxP5RE3E4JpwKe5Y2jVM6I7NKFLZnk3cBndZJ2W5LGzWHukpIpdvvt4ihvRFwHfgRXoHqVdXmWkM6gVNsJKYO8ZFE7nS1pJ+dYBKmcxlaQKZJ3fO1MMYOmiFlC85ZeAuJ3sBHJPweevK72QHdllZYfL7Gs1wo4lAr6HpBDr92qGyfAsgKLU3lFdK9qSvTOz50nTWv/6oGcltX8aepxjacV+cmS0z1VfPHSJ6a22u2CgwPOwW2KQ2TAD8NJMT+XULCB/lTu0zhjTYO1J1ez9FHnennEjIXWHVE4Hjp+7tC7ZKEhPaz63SVc+a+2flxxlJQQjdb9YZW/CNWgoO60Q==
+    properties :
+     x : 6
+     y : 83
+     width : 463
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : Unmarked_files_will_not_be_processed
+    identifier : 0x286d148a0a4d577b
+    internal_properties : CAAAAAgAAACgp5WU8IbNhHmcyfpr8LEPauzqF50l/2ShiF5C/vJeX53PElrlhLn1YSc2sS3vjVOxSZHsc2P0SQMJ5YWfP1L/jD8AHH3Q7tUOTP9CNdEdsiVy1T19Wfqlf38dWIQ0lO9irFnWncpVbFgXwQ+av/RQ9V7lzbpermrbHN9kaug/A/4Prhyc8G/W0uTqCtfVVRo0JKq+u9F2BepekAzVI2aNbDfEqr+hNwx6rDZPRfNYdHNBGAvZZtLnmSmuEcgCZWOaNxQgKqS3K79WEIJHYvLKPUI01XmJgP3uKHBX6t4bte9Dtlqv8mshBVheHxaDapQXYNamOgHZiCxgi8WaGPMc1FsT626oLFPkEHt0biVfnciulronjAM4L5F9Yfd8T4nYcRk+cwxBhmZo/ZlVBWsR4GECBqirrhbTDCuDu+2jBCVavMR3HAHv6E8em+WiEIhoj2ykaVh9ZUcyAD926+OgE61vdYFAfpREbHpW6DOmFrifXECThhuWhoGwSNX/d3p6I5+taVewdxyyqmyiLuexUZyR3sGyP8Mw6Y1XWisBcqitDViXPA==
+    properties :
+     x : 6
+     y : 501
+     width : 290
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : Exit
+    identifier : 0x286d148a0a4e577b
+    internal_properties : CAAAAAgAAAASvmmBZIHm3gBmjENn6IQrPBP9FwXpsSUrMOB1C5wZE1CCC7QrZnBhi68O1dxUSBeydtHq+a34u92MTeaeepE6YuZHjcB6wrkjprQBngLNjgfwd8+NMcWCPowSAySKr/LxGZOuOIocCQQByezqup7n7jT1zCEhv4QNixAfZEsm8Y0XmYGsNDBQT5xvgNlu1LqLHJILgQJIUb4viRjTYc5a/QnMgaFSNlJXU8x10ufAWyLmxZvNQ5Zy4dJZtXtdrGRcVXvnVJVjSQOOtouS248YnLTEwxIHb8U2Bg7S2/O2T7DFdManMyOp2RBrFKssdzAw+3tYvQXxRRlq5RJzcO08RqRvl1xmcCn0L9jcpK9tXYqDsHuutapj+5R9eu+CAn1B3fnY5VoImabaYjvlvN/EpCFIGOpXxlTL/FsIzJ86KPqK1vsfcABhJZBzemzntwKLdBnK9hYWlq/ppcOU/EaP5W9aJ3o3skoCX2lVkMqNkcoTyD8c7OEAOLa2FmvDmA4GjFxorFMYLTPShkbUqh+1E3qappIJea0BZvDZpOyqt3F9v8/NVAImOjzkoBTI/vFUiNxETfl8QDjjvaS0/MGrdHB6aJOlSetO3xopU3QpK+lUbjIthX3UrJNKM4IlXaMmepihzQcc6TCymo9hv0WHqNo2WP7bBST6IGkI2yCa7gctIFWf+ddn0UJQwfJa/WW7DxMXHSw79HzPFTSYgELk+ng7BSMW3/2iegU3KZJXTOQzs0cEBirulkAhrxMf9sUUeMhupdvJEMLb3X9jTcayZ4xP1DcR9WYN4ml/o8283nqPFDtXbJwd0Jqo1bG21IfBF8wxHyUAYLxsH503abWB82+fdQPd5d9KJEKgSfU986eQg9hikZzxyrajY2phZR6h/jc1rbcxmGxNOzDsPOb4M40Vjfc7w8EANcNR0yGXUKi0sy9ey6tFJEX2+Ky48P03mA9W9AqPq0oN2QAta+CGrz+Fz1dMkitARlsRHd2bgB5eMT/ajnNqwVaOl3orSkEHAw==
+    properties :
+     x : 414
+     y : 501
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SELSOURCEDIR
+    identifier : 0x286d148a0a4f577b
+    internal_properties : CAAAAAgAAACRnP5Z55fyfvZM6+X/0yglWuobFtmGiEA1UCksNWbaK2mzp8yVnLx7QIPb7C8QfNGdMqJJM48KFsiw5mqfRTSpU07+Sl9+i32go5wJ+Wh1PokbB1D84eY5Kf0ktGVqecFrNTWvY9CB6rS+Vf90tidAMRs+W1W0XZqwbzmrZwV0oXl9bRidNtBIinIAWlCBUPtlM1fsrLivUwcCXyPP83kbqre03jzR/ZtFISey+IE6kA4p4yLG0MwezzeHg/h65bN336pNjN0q2eeHMaGuQLd9+2PH51zBhvH2dVY1yMx3WjL3cJaKR07YQD0p7raOqIGS+MCzTJRd/YwswQHFSTRVh7pu4vFexWyNHLNI9gNF7s5XBgUJ3Oglu121nOkLhgJ/GF5lSUlAkimWoKh9WslETvW1Y/j8DozRM1tWIQ4SZepG3pZLYHVAVs4l+Nz1wFwq+nRcR3A4KLwk6rlCYztX8k088GnwnMMY2cUwQTju6dfDH8A1j7/uJ0aS1GSb9Q5qVld26C/PMq+vsJvFXpewy9ACYXIPY05JmsxdGlxWGTyXfQ8HonjhyYjxZPMpcTmoCZ3TXlekI/1aDh2E3n0mKxQBdtEwnKXHnxM/kl1bWSr1nHTNq3iImcxmXc9XS74JEwVo2CJGm7wdRwW+uDpgDT7PN9clOMqn/DxPt5TxVXHnW4GjTg/OSVlBvrczKgz03TeV54rTaqyq3CR9TgUNC+5DrXiBSeXlc6Wr3Q4mNhn1gwhqminKCfBlWmZFKpFehZbl8GzT6S4y1AT8lhhYXKDh8ivTqkeE3lZmCRPPhLWOpO284IGGgQIpRgExxEob6tIH1DK0m5dBVVsVjC5NQP0Qbh2PjivPX9Og/roFygE+n8iUx9scX6oFAFO9hVdHijHPUvtvpHhkMdV5gxliyIvY36v6kpc=
+    properties :
+     x : 476
+     y : 56
+     width : 18
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         IF ListCount(PROJECT_Combo)<=0 THEN RETURN
+         
+         // modify the source directory
+         sDirectory is string
+         sDirectory = fSelectDir(EDT_SOURCE_DIRECTORY,<§$0022§>,<§$0023§>)
+         IF sDirectory<>"" THEN
+         	IF YesNo(<§$0024§>) THEN
+         		EDT_SOURCE_DIRECTORY = sDirectory
+         		PROJECT.SourceDir = sDirectory
+         		HModify(PROJECT)
+         	END
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SELSOURCEDIR1
+    identifier : 0x286d148a0a50577b
+    internal_properties : CAAAAAgAAAD+fR96pvbXF30O6bDDPKmYuZGUn9ILGe2gw7in+IvzYH0i1ksE9IPiZeBw5aCLKc6aQ0XS5vJdKY11Jz/kYHdG8PM5NYKZKhh5JNH6spMYz/66SoOrPPl8/uIRKfP5enIkG7BMITxGRYCCv2XUO3KDcrhErH1ccJ4Mk+0lR/Q9rZx8+qjHQT0yJlU2AeKvdPvBXkx1nDtbdaA8WK3tPP8YZOlpl9dW3Y4k4uGHqfPv6vQSk29x5LwKBFuExfbHMwnjBcK4QcR8dhI8cVT7OFSG5Mu2Lpa4uV2fg/bTLk3xqWARYkTJhtXjtlMWkq9v2lzoiNb3e0pb1voTnjbVu9WhsOS00z6qov9UT6JThzLpy2GLg56gbABXPhsNzHE1/Hcj9WcL4puKpJC+rTZIqseeBehr+JIW1wGltAkOOYFqSoGsPSwIKP2xnH5QpC2QYpwypQHFnASS9KFz35j6W949fNidniQQ3qd8Gxr6bXF15NGBBloPb9Yiif/Gvh3RbXXmwUJDKGtbaxjotv4HnFAGaZ5+qS/qdx2Aue8q/0vZEkZXgJQ4iSkRH+45HCjQOGehxdH3Lvp614mFv77nw9aPCUyV7/vQZl9GuHSQcUHTBYt3JzZb9FTIYbe5GflpXw5uBXYpTQtrb9ALllLsXrjOPDOq6DOZJla+0s4qJ6kzKLPi2/i2cuA7VNJVjwVMUj3T8WqX/5KZoA7bm+vqGh8KFpDA+P5olf7ifYmxrDPs5EECzG3MVne+og4Fmhbdmnn+5eYjJNgDd7iERIvLy/9/wRVSCQpsiUTZ8+uAE+F7MpEiLlPMyEeWy8xdUqVRJsaBUDqPxihy6zkzSa9RTOiJZrvYJtG7BlFnOSdscloD8rPwusuflCruYVRd6LuRh089yHUbgEVpZH5KvYBMi5zzP0yZ/gpb8XQ=
+    properties :
+     x : 476
+     y : 82
+     width : 18
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         IF ListCount(PROJECT_Combo)<=0 THEN RETURN
+         
+         // Modify the destination directory
+         sDirectory is string
+         sDirectory = fSelectDir(EDT_DESTINATION_DIRECTORY, <§$0025§>, <§$0026§>)
+         IF sDirectory<>"" THEN
+         	IF YesNo(<§$0027§>) THEN
+         		EDT_DESTINATION_DIRECTORY = sDirectory
+         		PROJECT.DestDir = sDirectory
+         		HModify(PROJECT)
+         	END
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PROJECT_Combo
+    identifier : 0x286d148a0a51577b
+    internal_properties : CAAAAAgAAABYlOE91qNlIHUUkUnOT9zpUgAaoosbwjwnOZdOlL5SqUUSmvbpCiTsIlLTk6Z8mUfZdEyy6k1ZeKDh9uhqKGIHUuCho2dZVcdazbjophnJU440Gq/1BM/bAf49Gh6uMB2vtn70X9hPYFFqvo9TjxbG1iISrRjsIZQfrYZsxdsrYpDWrIrXR5C6p7ZoMRclGJxfh11cqZq2xeWp36Wp6t4dYQj2r+LDxyrJMr/EW6Ad3G4gVmpcbcS4wW1fF4EOgo18eCaXkQdpJORcFA+cR36YM/7TmU5OVEdGKvGu7lmlhtT1zi61hFfp8YxbkPK8KHYJ/xvpLIxOnZKKEAJgmxKAt4n2lJog+8R4ddvHebMa79Hj1vFeBJBfwIdnkj2H1bf24uAKTeZAe3ulJ3PJ+Bv+yd2HVU13iy4+6Ve4VDHolDsYR+t8CWogL2WGFbgQFoyAUPyYA1FfEVd3j6B+hDr7CaVdlQ5dCvISDgBg+mFcZUTDXllBfMvL9DcJIzRDwYspk3naiGBJzmpq4TgpImQlK5a6Oc2STkaYPs76w1vDkMr+zIwFWZ8AWBv1B7ana7haSHYoGoM/BBRWSwqT1hzdUhBzm49jKhbUDIhRjMTrjRcqxegx67/rF6UUsijNspO5yf81XXu5HXOnzGOijQ6woENzwjuhJAMmC3QEK/ooJWc+LCmpT2TZBMJFz37nGH89IHyw05AVkT2PxylYyimCdsqXmjn7KxYCWXw4wNT0P6gTlXGTVUUi0giRCaHzWm2VnN4jv+sojM/ab8Cw8d2PzUNF+CM6OY1JbIDFypEGcbV36F2yLqeFQDGFouuSD5OuZBB4DxmNEpdB0roXLwnasl61QmcGRVZNgwxkaFiVRHPQNBrCtLuZ9WetWtqqrnMWJU66G6nyctIoej/AgAyJBHQiptN9ntztbQabDI/cdR6DjCQbxQuay5ekjEZ9oBsJ58VEliyWi0VIZu16WP73hEjPHaUL+U4CSGpSYlLBCQ1bnGp13LWiJJ+D6rAvlD1EmKKgnMtjXY3s62IUFYK3OrUUVKVDfhzjuo1Dphc4LDPrYfb2oyGmzHOZUKXjFUdFdmH65L/+ghQA5/a9yLB7fnljnJzhC3muT01MIf8X4vzdbvQVDDE7KGnrcbuc8kMYZhheloYs+Sm3QO4ew16gmQFKnIACJMExkv2TmQvfHtiqC1Gp+aZlKVCD2r4S6M7h85r6UAU0CAcJ6U/Vz8MO4UNDgCwL0HAdMmtwhQ23dGZkCCVdPfABTET9KwwFH+/CauudInqI+MkeMO0XhS0tzwaBus7AklUxxHcmjIFsvEJmxFxB+WaOF9HukZrAvcgOllFxzumbEEeslvYctPdqvliqIqhjjJNfOrLGmHAsewd2Hzn1hlpjTg8bx4n5akB055EizS7kkirdDw9QsrB9loUrr2K5kxKNPQI+AETIa4xtPylCNuuDW4ROUJmc1qQ/5x34AeEISvGde3Bu0JOv7uQ84/7lPUIjAqho66qTxBPCpXWdANxybPe51pfd7mjWc6ff10/uKjcZQ7hTOSG/5aiKB0WT3I6JFTozm8aBZIpIMcqwRNSMyae9h+4kvrHAGNMZHJeOunj/XQyopLgvED0XTlWMZNbvSLPNOSSwAr8gD+t5oHCVOM+Qv1bu5CYBcXFlEf5kU75ifN1XMu1dBAl3cxKFkoI4MFbLABdhx1Qu2uYVcwKQJ+yiW1GaYtdSE68lwsG3xgYebbvILcEAkNTxdTvjWbqHqRf110sx4BHj1ZM8nywcl8bXuC8F9H35etxOjHtxZDKAthNZhr3AY7FhWifD3/Xw9pE2qAIjrFy/hD1ShYsgdvstsN8P0PP3j+xv7DTK4JLYUgVb754M5CfL
+    properties :
+     x : 6
+     y : 26
+     width : 333
+     height : 26
+    dropdown :
+     internal_properties : CAAAAAgAAABgOX1bJtgDiOV1QaNMr5oQ7aapQkjUTwckQsCfzLxXHo9r1lfFOnhOasRPxyd88xDl7Di4Fc54gN3OjOA4HRjxz3iVb0+wdj16/XfUzVQPH/VNS8EVzqk0TLtd1gds9DrakJ/YpzZYRu2kq0oLLMlWXDxaUMDe7wPPy02Ot18k7BqbfbYzJ8GhIWaEFscfZ6uggv0Rzb6lnwZAx49DCp0Y7+GJGKBILAlZXapNofD5sgG1IbE/a2bOdoFTa2tX91noBf72mGcSFUAF1QLUz0AlJINYTU1kvR9pBnw+Kbk1YA7qrrtXqiLDLg++mBPtcHZAtGj2dEcRi0m3HXv1lGUBvpz5MToYriJHrg9Md7oD/N734+dYXyMELWQo5yh2PfUFNJi1aYc/m96KcVX9GiVYiYJdzlU5PFFJeg8ZUzU5V44gYqWdTv95pD2rNS35hRe1lHECbF+h8y8sYPJ+Q4xxoDB/Xotr7dyVJt+Qv0lZb0amF7pdUIJA/HoPxXHkwmxhX5PpId8Xj6y/izjgXkqeGWYLwcsxziNGL/s+By7WJpCrYaY49/QjGoGsz8cpi+zw1+67PL4CIishz+qPyKEYzT9oLATKj1PdwB0oIP4LmSyDekJvryV4ZcYTzpRBSv30gRzC9bt4iTvZQWUaLagAQJKwwtSMQY//LKuJ0RJaTi5r98UnxgAxhxVm92eRYUHBqhh9A/QlbNsy5DMM+F26bqvNT97+M/euX9GvNfc8RI3a6UyY5QhK3MyJEgRcaYb7GnNK7YQY10M6wSHeTpHlJx6dFHZ/02fs6wD9Sl+Fyas0hfsqdRAns/TsvHX32gCUHghA99H2W++MRVhC8iP2Vh1ghcbbsI2BZSfHOXb7Dao4bRo=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 35
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         HReadSeekFirst(PROJECT,PROJECTID,PROJECT_Combo)
+         LoadProject()
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : Modif_Prg_bTn
+    identifier : 0x286d148a0a52577b
+    internal_properties : CAAAAAgAAACXbXQZwxUO467yemR7YuaaClN6Tsl5KuZYfzxq4KTvwmqTBoPkrdq0elzvxNp1WuLcbIXJhI6fM4LU3NVKn2obO4A58OR0RO95rJnU0Eyuk7PMk78y0L1Som8pZb5vcFRMr/FVRQ2IeVj9Q1Q7Gh0soKWOA0jdmjq0qEgkAg05W8gUxvUwwXh63Qwyx2SfILz+9JLgUhKWA0SKDM6Yru+0Zjr6NpPfIxfXZ4OvWsFor1dG6c7tf7eu4lXDZXl+pILOqWU8A+4wJO6kBzU4q3CIrwtTfA/FOUUOpo9x/wgewm0YOZ5CaSj4XbEa3XB/F7XRjtUq7loBcBIITQxw/czpEjgeAunWkZy+u8YtSy/c5pO133BwYvjJ6gOvW7Q9XrfFcFfyTpn0Vdb1GYgLM7XRzhlKL7APZ3AzSonLtTrcimJrPLOMj4yaO4TfkTqgH1bIoYfD0kWYdeJ4Fcvh3+EiYZ4YPHwAoM96WGcmH1bMWCFKvY9A85+q2wgbTOYgIu+FlWXoNqh3zb4MjNLg9qFf3zHovwEFyXzZeiONEOLxbnClRRrqQFU78u7WcC63dDZS0MWuVZiVpHGCEYRizZhEfnMw6B+ZtTT+y0oou4yZhyni27WN65M0IytzUlkR0Mmw8O64Frtq0RIqKlgJEayr173/GItIPuI72up0h3I2lP/HJkFoSD+01erKuzm6HZboixQuhSIGmcujoBrwUXqet1bP7oxdg95au/dbEW2eIZWOSCXzjmfRagfOxsx8LWLzqq67L4UjfBtP33fznt+x1n637sP7kddHtaIyWZHz8IJFsmVMSyoc8bxHN+llVrKe0/XaUgiuJyStHSwEmGyRmw9qL9isfnvQbtccZdg2rMa3oWZKB13ItQly1B8A3YaG+qUggJOHOre2VWxhfghwRa8wngjzYaxqC8KPv7ufqPW8ju9JCPSPMti9QeKgiZAEMMW8aYaPRXPqakjs
+    properties :
+     x : 342
+     y : 27
+     width : 18
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         IF ListCount(PROJECT_Combo)>0 THEN
+         	Open(WIN_PROJECT,PROJECT_Combo)
+         ELSE
+         	Open(WIN_PROJECT)
+         END
+         
+         // refresh the controls
+         ListDisplay(PROJECT_Combo,taCurrentSelection)
+         HReadSeekFirst(PROJECT,PROJECTID,PROJECT_Combo)
+         LoadProject()
+         
+         	
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Add_Prg_Btn
+    identifier : 0x286d148a0a53577b
+    internal_properties : CAAAAAgAAAA5OKgUc+XWCg/PW2AWTFusrDe0UEBx4DIknet8wwLr8q7IHLBQuLsxBYRnPu1X3i4FjRmFFsL/ri7j1DLUepa/reyBjU8k2dDe36F1MTgmoIaDSvb414QRp9XCMN2kRdOud5nJPb5FzvIph3SSkDiBPJFadfCFV63Exw/ZDiuME506diLc8SEZK9JAoSsKv7aSYh9Qjb+6ThTcoJGXYSL5qgqDasgcQDE8JPinOlpOqv+zGWhnRiQLXZa11Xj6aMdjpVcUQYAF3XB848d65AhaLfgDlpS3QCCXOrPURB3W3VNN8izn0/bEPcgcwEECjIMmaZhbDayxQPLYQs0FAM8PnVKnmKHfNRgRWUfENfyCmZzbLzsiAl2g9vvwIeY0GCEKkuL2RDA04yf1DRC1X02LUHjkQHOSIPrVjZESSvxXF/eq0d1q9Yu5Ia3B3nExU3lFxhvuPZHRNAB/bKP3OL4GgR11Zd/7eqhSAui9uJFqykf0rJV5eTCmJT5yo6qBIoXCcmISoG+bQcgPguNcugX2749exuMCl3/aQIPHDKdk+vAWZsGk0W0neRmxpXGW242ZlLMECsIqFwe63RU+L/1pL+GDcNv8Vld0RxZZCvW+uQ8qUa/zVoLkY2B11m5jPFy3+NOtuC706c54iXbvhRK7UApyE2q2MyApZRKtheM51nxZMh8C8+4xglViaCs+UHGMpBsk9xV+Z5e+B4oTW3m5FcUrOIw5sTV0XiEwCiq1hjN3XHb/b4EE68vyfqVRaMrsaDteZRLcN3lxsQIb4BNg79EzdL+OaSp/EN0kd8leovvg+Ih4+HqJt2UISSKBOuaTNkoDGH6Fnk4MySfH7gHJFbZAPNygVuDhq3Z3oaOaqPsb8QhH9ne2Ch7/1YpoxViR6xn8uFlvFTMJdyb8w1GxlxC3P3k7SazzcOV55CIyJO29jSiuUlaPCSx954NmFiY7
+    properties :
+     x : 363
+     y : 27
+     width : 18
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         Open(WIN_PROJECT)
+         
+         // refresh the controls
+         ListDisplay(PROJECT_Combo,taCurrentFirst)
+         HReadSeekFirst(PROJECT,PROJECTID,PROJECT_Combo)
+         LoadProject()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Delete_Prg_Btn
+    identifier : 0x286d148a0a54577b
+    internal_properties : CAAAAAgAAAAlFLSAn3G6voND3/SKwNfQsCtYNHSVDG5Aqed4zw7vzprUiEzsdL8lyUir8rErKoJJQc3p6uabCsqfYO6QNjpbuRjdObvgjbRyc0VZlVyyNHoF8Q7gMWB/U2OMkr1IARWowe1vR7ZLmvCJt2zc6Izzhkt+8/bp6X3es+MNUEVV00fMSSRv/3Ed/Obsq6u63MoaRnOl1VsCHrQBf81b66r3iLC7kD4AYsHKALQD2NZSVHXJZSptilaTe05x3XLC2K0Jd7sak4gDBbZQm0uoIDjg41KHGApDIrCNMn9ACpnuQzFXHkKp8wx8x3BgSMuCDIE8l9AN+2C7xMhgCpkzvP9dB6TfEksn8wyHFVtQC0huY6Z9v3n0euPI6AcU2SjkwFegGLLENsDaC71VwRiv302xGi4AvmHOGmZrCeH67FzHDVFMfcfIYd39z9np6mftl7N31H98U3UrmGYviL8ldHbMK/fhM+njEHB7tduIQ2ThD8x3n6Bszoslmt1ZgknsQY7nffWN+3SCLOUWmaJzEazrtAqxCW7fUlbLc7Yy534Hz+FltXBLigBWTsCoBPCVOrJeN+63BZ/hVkyxhKyVznwaUICib8JVtS51GrH0zbw5Pqyt3CLO09GTMKfE3XXqt9UYv5pk928veH9ztCGi+FFAEfHpqokHyhM6cO24iO40x0GE5dJdaEVk1xzx/1Ll0yqZ7+7vempt0jgZ+hXW5kT2wohmC7emNNgJRVg3Ad0gzyxu23cmQNU1xhq5eyKzHmi+hkRFNBOZ7i8L14LgvWH2GQ3we+LTxH2Ay9j30uC5MzT/H9/vYdHA/EQfUMnobU8sbQHiP+f89fNv7FYWvWNFkSrMoHjMeoRFT6o7bffOXA83ldSLqiPiZrob8e4UkaRdP+WgBBUjSWf9e9qoN+XFiwy7O30/VbjPnJGV+D4eEPlBCawq3toTjaDhex/6+gof
+    properties :
+     x : 383
+     y : 27
+     width : 18
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         IF ListCount(PROJECT_Combo)<=0 THEN RETURN
+         
+         IF YesNo(<§$0028§>) THEN
+         	// delete the project
+         	HDelete(PROJECT)
+         	
+         	// refresh the controls
+         	ListDisplay(PROJECT_Combo,taCurrentFirst)
+         	
+         	IF ListCount(PROJECT_Combo)>0 THEN
+         		HReadSeekFirst(PROJECT,PROJECTID,PROJECT_Combo)
+         		LoadProject()
+         	ELSE
+         		Reset()
+         	END
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : Menu
+  identifier : 0x3abb2edc05b60f9b
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADrHnFfoWH3GEbwaHHyg5hVbrVkObYznd1dNPNpWpGmtNZVHeBQUo5ABy80PNoXx3cjcPDcRsRI7OrI4EVTckmN70KIvG/fYzyXR99ZC6X/hJ1OabmtYwRrr612DypdyFs=
+  controls :
+   -
+     name : Cell1
+     identifier : 0x286d148a0a55577b
+     internal_properties : CAAAAAgAAAAEKX6MKLYWXdG/zZMDwdaY8FBco9HuuwrNW5TXjW9p63IrNLzOY6GUiG+xc/f/TqMQDCrqecvBFDfgUruJvFk8uk6HIYfge3knpoIfJ/nyAtbY6lWkjqPXpk4=
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACWkfk5sreTEDLDLeo1U6cKo3YnSZfL2RwgcwmnfYhOgeZpt86NY8f0J8BD94M41/x03ZaFsB7L7+RsWJkfDHNxzDKZag==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      CONSTANT
+      	CST_FILE_TO_COPY = <§$0014§>
+      	CST_FILE_TO_DELETE = <§$0016§>
+      	CST_FILE_COPY = <§$0008§>
+      	CST_FILE_COPY_FAILURE = <§$000c§>
+      	CST_FILE_DELETE = <§$000e§>
+      	CST_FILE_DELETE_FAILURE = <§$0010§>
+      	CST_FILE_IGNORE = <§$0011§>
+      END
+      
+      GLOBAL
+      	gnFiletoCopy, gnFiletoDelete are int // number of files to copy and to delete
+      	gnFileCopy, gnFileDelete are int // number of copied files that must be deleted
+   -
+     code : |1+
+      // if there is no project, open the configuration window
+      HReadFirst(PROJECT,Name)
+      IF HOut(PROJECT) THEN
+      	Open(WIN_PROJECT)
+      END
+      
+      // if there is a command line
+      IF gsCommandLine<>"" THEN
+      	
+      	// We are in automatic mode
+      	gbAuto = True
+      	DelayBeforeClosing(500)
+      	OpenChild(WIN_AUTOMATIC_PROCESS)
+      	
+      	IF gsCommandLine<>"*" THEN
+      		// find the project
+      		HReadSeekFirst(PROJECT,Name,gsCommandLine)
+      		IF HFound() THEN
+      			// title of the window
+      			WIN_AUTOMATIC_PROCESS..Title = <§$0000§>+PROJECT.Name
+      			WIN_AUTOMATIC_PROCESS.Stc_Source_Dir = <§$0001§>+PROJECT.SourceDir
+      			WIN_AUTOMATIC_PROCESS.Stc_Dest_Dir = <§$0002§>+PROJECT.DestDir
+      		
+      			ProjectUPD()
+      		END
+      
+      	// all projects	
+      	ELSE
+      		HReadFirst(PROJECT,Name)
+      		WHILE NOT HOut(PROJECT)
+      			// title of the window
+      			WIN_AUTOMATIC_PROCESS..Title = <§$0000§>+PROJECT.Name
+      			WIN_AUTOMATIC_PROCESS.Stc_Source_Dir = <§$0001§>+PROJECT.SourceDir
+      			WIN_AUTOMATIC_PROCESS.Stc_Dest_Dir = <§$0002§>+PROJECT.DestDir
+      			ProjectUPD()
+      			HReadNext(PROJECT,Name)
+      		END
+      	END
+      
+      	EndProgram()
+      
+      ELSE
+      	// in visual mode
+      	gbAuto = False
+      	
+      	// Is a project defined?
+      	IF ListCount(PROJECT_Combo)>0 THEN
+      		// first project of the combo box
+      		ListSelectPlus(PROJECT_Combo,1)
+      		HReadSeekFirst(PROJECT,PROJECTID,PROJECT_Combo)
+      		LoadProject()
+      	END	
+      END
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : ProjectUPD
+     procedure_id : 1760085612327950203
+     type_code : 14
+     code : |1-
+      // Summary: Analyze and synchronize the synchronization project
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ProjectUPD()
+      
+      // Local variables
+      arrExceptionDirectory is array of string
+      arrExceptionExtensions is array of string
+      
+      gbDeletion = PROJECT.Copyld
+      
+      // Read the exceptions
+      StringToArray(PROJECT.ExceptionDirectories,arrExceptionDirectory,CR)
+      StringToArray(PROJECT.Exceptionfiles,arrExceptionExtensions,CR)
+      
+      // initialize the controls
+      EDT_SOURCE_DIRECTORY  = CompleteDir(PROJECT.SourceDir)
+      EDT_DESTINATION_DIRECTORY = CompleteDir(PROJECT.DestDir)
+      
+      // Configure the exceptions
+      COL_Synchronization.DefineException.arrListExceptionDirectories =arrExceptionDirectory
+      COL_Synchronization.DefineException.arrListExceptionExtensions =arrExceptionExtensions
+      COL_Synchronization.DefineException()
+      
+      // calculate the synchronization of two directories	
+      COL_Synchronization.AnalyzeDirectories.sSourceDirectoryName = CompleteDir(PROJECT.SourceDir)
+      COL_Synchronization.AnalyzeDirectories.sNameDestinationDirectory = CompleteDir(PROJECT.DestDir)
+      COL_Synchronization.AnalyzeDirectories.bAnalyzeSubDirectory = PROJECT.SubDir
+      COL_Synchronization.AnalyzeDirectories.bOverwriteMoreRecentFiles = PROJECT.ReverseUPD
+      IF	COL_Synchronization.AnalyzeDirectories() = False THEN
+      	Error("The comparison cannot be performed",ErrorInfo())
+      	RETURN	
+      END
+      
+      // Fill the comparison table
+      FillComparisonTable()
+      
+      // copy of files
+      Update()
+     type : 458752
+   -
+     name : SynchronizationStatusReport
+     procedure_id : 1760085612328015739
+     type_code : 14
+     code : |1+
+      // Summary: Displays the status report of synchronization
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SynchronizationStatusReport()
+      
+      // Local variables
+      sMessage is string
+      
+      SWITCH gnFileCopy
+      	CASE 0,1
+      		sMessage = StringBuild(<§$0003§>,gnFileCopy,gnFiletoCopy)
+      	OTHER CASE
+      		sMessage = StringBuild(<§$0004§>,gnFileCopy,gnFiletoCopy)
+      END
+      
+      // identical copy mode
+      IF gbDeletion THEN
+      	IF gnFiletoDelete>0 THEN
+      		SWITCH gnFileDelete
+      			CASE 0,1
+      				sMessage+= StringBuild(<§$0005§>, gnFileDelete, gnFiletoDelete)
+      			OTHER CASE
+      				sMessage+= StringBuild(<§$0006§>, gnFileDelete, gnFiletoDelete)
+      		END
+      	END
+      END
+      
+      // Displaying the message	
+      Message(sMessage)
+     type : 458752
+   -
+     name : Update
+     procedure_id : 1760085612328081275
+     type_code : 14
+     code : |1-
+      // Summary: Effective request for synchronization
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Update()
+      
+      // Local variables
+      nSubscript is int
+      nLines is int 
+      
+      // Initialize the number of files to process
+      nLines = TableCount(ListTable)
+      gnFileCopy = 0
+      gnFileDelete = 0
+      
+      HourGlass(True)
+      
+      // browse the table of files to process
+      FOR nSubscript=1 _TO_ nLines
+      	// display the progress bar
+      	Gauge(nSubscript,nLines)
+      	
+      	// if the check box is checked
+      	IF COL_ENABLED[nSubscript] = True THEN
+      
+      		// if it's a file to copy
+      		IF COL_REPORT[nSubscript] = CST_FILE_TO_COPY THEN
+      			
+      			// copy the file
+      			LOOP
+      				IF COL_Synchronization.ApplyFileSynchronization(SET_FILE[nSubscript]) = True THEN					
+      					gnFileCopy++
+      					COL_REPORT[nSubscript] = CST_FILE_COPY
+      					BREAK
+      				END
+      				
+      				IF YesNo(StringBuild(<§$0009§>, SET_FILE[nSubscript]), <§$000a§>, <§$000b§>)=No THEN 
+      					COL_REPORT[nSubscript] = CST_FILE_COPY_FAILURE
+      					BREAK
+      				END	
+      			END
+      		END	
+      			
+      		// if it's a file to delete	
+      		IF COL_REPORT[nSubscript] = CST_FILE_TO_DELETE  THEN
+      			LOOP
+      				// delete the file
+      				IF COL_Synchronization.ApplyFileSynchronization(SET_FILE[nSubscript]) = True THEN		
+      					gnFileDelete++
+      					COL_REPORT[nSubscript] = CST_FILE_DELETE
+      					BREAK
+      				END
+      				
+      				IF YesNo(StringBuild(<§$000f§>,SET_FILE[nSubscript]), <§$000a§>, <§$000b§>)=No THEN 
+      					COL_REPORT[nSubscript] = CST_FILE_DELETE_FAILURE
+      					BREAK
+      				END	
+      			END
+      		END
+      	
+      	// if the check box is not checked	
+      	ELSE
+      		COL_REPORT[nSubscript] = CST_FILE_IGNORE
+      	END
+      	
+      	WinRedraw()
+      END
+      
+      // status report
+      SynchronizationStatusReport()
+      
+      HourGlass(False)
+     type : 458752
+   -
+     name : ListingReview
+     procedure_id : 1760085612328146811
+     type_code : 14
+     code : |1+
+      // Summary: Displays the status report of synchronization
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ListingReview()
+      
+      // if no file to process
+      IF (gnFiletoCopy=0 AND gnFiletoDelete=0) THEN
+      	Message(<§$0018§>)
+      	IF gbAuto = False THEN
+      		Info(<§$0018§>)
+      	END
+      	
+      ELSE
+      	sMessage is string
+      	// message to display
+      	SWITCH gnFiletoCopy
+      		CASE 0
+      			sMessage = <§$0019§>
+      		CASE 1
+      			sMessage = <§$001a§>
+      		OTHER CASE
+      			sMessage = StringBuild(<§$001b§>,gnFiletoCopy)
+      	END
+      	
+      	// case of identical copy
+      	IF gbDeletion THEN
+      		SWITCH gnFiletoDelete
+      			CASE 0
+      				sMessage+=""
+      			CASE 1	
+      				sMessage+=<§$001c§>
+      			OTHER CASE
+      				sMessage+= StringBuild(<§$001d§>, gnFiletoDelete)
+      		END
+      	END
+      	
+      	// display the message	
+      	Message(sMessage)
+      
+      END
+     type : 458752
+   -
+     name : LoadProject
+     procedure_id : 1760085612328212347
+     type_code : 14
+     code : |1-
+      // Summary: Loads the configuration of synchronization project
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE LoadProject()
+      
+      gbSubDir = PROJECT.SubDir
+      gbCrash = PROJECT.ReverseUPD
+      gbDeletion = PROJECT.Copyld
+      
+      // initialize the controls
+      EDT_SOURCE_DIRECTORY  = CompleteDir(PROJECT.SourceDir)
+      EDT_DESTINATION_DIRECTORY = CompleteDir(PROJECT.DestDir)
+     type : 458752
+   -
+     name : DisplayComparison
+     procedure_id : 1760085612328277883
+     type_code : 14
+     code : |1+
+      // Summary: Displays the result of synchronization
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DisplayComparison()
+      
+      // Local variables
+      sCurrentFile		is string
+      
+      // Delete the previous content
+      TableDeleteAll(ListTable)
+      
+      // Browse the files to copy
+      FOR EACH sCurrentFile of COL_Synchronization.garrDestinationFileToCopy
+      	TableAddLine(ListTable,True,sCurrentFile,CST_FILE_TO_COPY)
+      END
+      
+      // Browse the files to delete
+      IF gbDeletion = True THEN
+      	FOR EACH sCurrentFile of COL_Synchronization.garrDestinationFileToDelete
+      		TableAddLine(ListTable,True,sCurrentFile,CST_FILE_TO_DELETE)
+      	END
+      	
+      END
+      
+      // Store the number of files to copy and to delete
+      gnFiletoCopy = COL_Synchronization.garrDestinationFileToCopy..Occurrence
+      gnFiletoDelete = COL_Synchronization.garrDestinationFileToDelete..Occurrence
+     type : 458752
+   -
+     name : FillComparisonTable
+     procedure_id : 1760085612328343419
+     type_code : 14
+     code : |1+
+      // Summary: Fills the table with the synchronization analysis
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE FillComparisonTable()
+      
+      // Local variables
+      arrExceptionDirectory is array of string
+      arrExceptionExtensions is array of string
+      
+      IF ListCount(PROJECT_Combo)<=0 THEN RETURN
+      
+      // Start filling the table
+      TableStartFilling(ListTable)
+      
+      // Read the exceptions
+      IF PROJECT.ExceptionDirectories<>"" THEN
+      	StringToArray(PROJECT.ExceptionDirectories,arrExceptionDirectory,CR)
+      END
+      
+      IF PROJECT.Exceptionfiles<>"" THEN
+      	StringToArray(PROJECT.Exceptionfiles,arrExceptionExtensions,CR)
+      END
+      
+      // Configure the exceptions
+      COL_Synchronization.DefineException.arrListExceptionDirectories =arrExceptionDirectory
+      COL_Synchronization.DefineException.arrListExceptionExtensions =arrExceptionExtensions
+      COL_Synchronization.DefineException()
+      
+      // calculate the synchronization of two directories	
+      COL_Synchronization.AnalyzeDirectories.sSourceDirectoryName = EDT_SOURCE_DIRECTORY
+      COL_Synchronization.AnalyzeDirectories.sNameDestinationDirectory = EDT_DESTINATION_DIRECTORY
+      COL_Synchronization.AnalyzeDirectories.bAnalyzeSubDirectory = gbSubDir
+      COL_Synchronization.AnalyzeDirectories.bOverwriteMoreRecentFiles = gbCrash
+      IF COL_Synchronization.AnalyzeDirectories() = False THEN
+      	Error("The comparison cannot be performed",ErrorInfo())
+      END
+      
+      // Display the result of proposed synchronization
+      DisplayComparison()
+      
+      // Stop filling the table
+      TableEndFilling(ListTable)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenListe
+resources :
+ string_res :
+  identifier : 0x3abb382e3273770f
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "Synchronizing the project "
+     index : 0
+   -
+     text :
+      en-GB : "Source directory: "
+     index : 1
+   -
+     text :
+      en-GB : "Destination directory: "
+     index : 2
+   -
+     text :
+      en-GB : " %1/%2 file successfully copied."
+     index : 3
+   -
+     text :
+      en-GB : " %1/%2 files have been copied."
+     index : 4
+   -
+     text :
+      en-GB : " - %1/%2 file was deleted."
+     index : 5
+   -
+     text :
+      en-GB : " - %1/%2 files have been deleted."
+     index : 6
+   -
+     text :
+      en-GB : Copied
+     index : 8
+   -
+     text :
+      en-GB : Unable to copy <%1> file.
+     index : 9
+   -
+     text :
+      en-GB : It may be in use.
+     index : 10
+   -
+     text :
+      en-GB : Do you want to retry?
+     index : 11
+   -
+     text :
+      en-GB : The copy operation failed
+     index : 12
+   -
+     text :
+      en-GB : Deleted
+     index : 14
+   -
+     text :
+      en-GB : Unable to delete the <%1> file.
+     index : 15
+   -
+     text :
+      en-GB : The deletion failed
+     index : 16
+   -
+     text :
+      en-GB : Ignored
+     index : 17
+   -
+     text :
+      en-GB : To copy
+     index : 20
+   -
+     text :
+      en-GB : To delete
+     index : 22
+   -
+     text :
+      en-GB : No update is required.
+     index : 24
+   -
+     text :
+      en-GB : " No file will be copied."
+     index : 25
+   -
+     text :
+      en-GB : " A single file will be copied."
+     index : 26
+   -
+     text :
+      en-GB : " %1 files will be copied."
+     index : 27
+   -
+     text :
+      en-GB : " - A single file will be deleted"
+     index : 28
+   -
+     text :
+      en-GB : " - %1 files will be deleted"
+     index : 29
+   -
+     text :
+      en-GB : Select the source directory.
+     index : 34
+   -
+     text :
+      en-GB : Select the directory which contains the files to be copied.
+     index : 35
+   -
+     text :
+      en-GB : Do you want to modify the source directory?
+     index : 36
+   -
+     text :
+      en-GB : Select the destination directory.
+     index : 37
+   -
+     text :
+      en-GB : Select the directory into which files will be copied.
+     index : 38
+   -
+     text :
+      en-GB : Do you want to modify the destination directory?
+     index : 39
+   -
+     text :
+      en-GB : Do you want to delete this project?
+     index : 40
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

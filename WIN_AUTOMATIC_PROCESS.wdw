@@ -1,0 +1,131 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_AUTOMATIC_PROCESS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : WD File Synchronization
+ subtype : 0
+window :
+ name : WIN_AUTOMATIC_PROCESS
+ identifier : 0x286d148b0a7f5bd1
+ internal_properties : CAAAAAgAAADUHV+fUGIKyNdLBzhikPHShqtuPRQLqYECsQVk5NOAh/QvLMAI9e8ip2ZAFlijJoBfUmMtZpG/kEicKO2IQ39VpV3HV0N5qjMJmkGZJeEaAwC2wftACtuCdxtcDEQL1YVLmSLBLysQVvj6LRrrmKhU4qcBq36bMOPP/HSNawN6oFiI9e6vupRRUbEtDYkcLpvWyQnPam9E+53rfcAPTHi4qDuMhu0ALKcldBgFstu0/1V9tMX52ylMVRIJ5xzrvUbJ46cuT3JmFajdH00vZTwSEww8QKWj5EZc1z+BL3Dl2EVn87socD8jrSnrxiU8iwMbD9TSy0onwLIpnt0tasq57OPcTLrLtoMZ+1ktSASwnbFBdVC77JnjDdtpn5Zu3L7hzFN+yQm9q2qtOxZEbPFDc8+ucrILL8bL2nPWukWuTUsGA1ziV6Aot4g7BVAu1QA+M/0x23qQJ+A2haq+jTIjWypRLXLjYVi5xTVm0N+liSwoXhThf8cEXNGaPUV6156qllOPegGLTnuxKOJFiYvQanCulsmB4IcgXmWEVXvI+7t5dp5vKVeGMrcw7+k4pdb1srPbKRe+Vm0KtIhDRrV3bjXCpN8cPJnPvNwFr1OU+SNRdU7FDHhM8N0wOYilc4aUV3pmfHVP5PX039O85ffmy4CjQpUAfSmagV2G5Kq55WFv4AZUYqeK35aGeRuaoX0F+ehQmgU38NvwIJkBrTyovpwxIfnanmBGg2BMjk6XkPSsT83ijgaRTULztV8HmBvMGP+vn2LxqMONgTBgCqu7KndtT+s=
+ properties :
+  width : 457
+  height : 117
+  widthClient : 455
+  heightClient : 85
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : Auto_update
+    identifier : 0x286d148b0a805bd1
+    internal_properties : CAAAAAgAAAD1xHZ29q+w0Bj4Fzx/vG+ccj/QNrNFU4wu7T9o8kiYtWjRInRQWHRvUkJ3lZ8QBxox1OxvNMA+Z5cbydJiUbYAqZgbsqjoQY727o3IxtTcGX8PFAu4Etzx2957mfJMD0WEzRAOjc5j1sRVM4G5tq9OOTYtjRg5kdTlHRXpNzt0vKqrmUzrjJWl5HGdK8CUsltcC4b/aRkUbW7xfKIY4b+blI/3hGKlM7pbKADnS/Vx0emGVIc+DB4/w31IczMgSaCX2mUpyFj8FvKlDukN8BkZtknNXGushGtOj+sD/qsk1HQ8fxr/w7fmSTOO00PZnL6jKDVd3xtn7gjhQeiX3Jt2Y3XCFmec0xAlWV2jtyr67jtac64cFvD74QGRtig1kj+lQUgqiNBUZwf1xkkJBBOtWpY5yVao/YFD0wwaPD2GiCVhG6GAF+YtPuz11msURXkBxgR35nehXKJURD9QIwGFFOMiTjdazdRu4y4GrDtP9AycXGb7/WMCjzYUY96lnlvVU/X6XfFNlagdsGXLWWr6bw==
+    properties :
+     x : 38
+     y : 9
+     width : 315
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : Stc_Source_Dir
+    identifier : 0x286d148b0a815bd1
+    internal_properties : CAAAAAgAAADNGc/teDD6xisy1tLlDSh1AY4ilKwgtEDZt8Z8zp6fwStzNgEQQ5UvWgm/4iWD/Hy8n8f5Dta7tbGJ4DEWu9kdQdjC99vR04zo2rKWeiI56GJZjgVP2pooqfcTldePrpkFs6EQV0tEsKJeuPCP2l9a7MbmeCSt/qzBQNMmbFZ8rqd5u9pJ8gYjfxhfwMD/Q+fkwUIMoOM6JpuHNGNLPRY8oz0BgzXHnQszaY/tUK8s58OfZsmMokCdOL5EIRpjS4MbKPnOXMWZbGLjo1MAgIDBbvjnLREnf+jwrQRBJ5sv/NAFQzRDjbnniaUjJZqBEXWjzREivhwnimftaxnqzOPk//tjTqhPgUa9BxtE2T+OCFaEfJxwNJz6slPFF00RuQnwiLmOyrIdT29Q7SGp1kDcJiv9H7Xf2167QrOAvvV4TGL5UrD2gvFRZmbgO9l524VK0kC6xqUpPGSWvn5D27FdGyftx1bHuKwWKkT8HCgD56KyJUz9SOTEaSKNffHPZ5DovjH1CbFTaIdLw+hHYkX+wFQ=
+    properties :
+     x : 38
+     y : 47
+     width : 315
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : Stc_Dest_Dir
+    identifier : 0x286d148b0a825bd1
+    internal_properties : CAAAAAgAAADMGtAkJX3uI/AJ/0fQiNEwTHQnidP3g/18xmmpidHQLvzm9hopvNrmJaqGCT63xE81BKxWKZMk4Pic71yX7Fy7ajVJJDmspOaFY2wVf+/8uiU+vQwEl4h02gATkrxkzggw3KTrGKRFh68n0VW4i/4pC3+xo3Fqq3cW7Yx/oWNDCfbOOhH276QZm2aTGFpxq69U+/ZAfvFcTMedRPuYf/qOzYMbBbsNk03JX61ftn3S4bXlyJM6gEjK6lpYWgbXd4fr3NG+6CkFXAppRekCjnLXyI5xk7sN2ElnTqqlX1NvTIRNVyB7lfFjnY3HgbJpMd1PzTXIFAFi/+KOijLRFRqVNkACv0/gINO0DOa5sjYZtblDx0HRw40R/eJQjEYIwBrn6zCXz71i1ub7NJIGuWdlVcYckWvb53XCLeHLGRIhp/daxHB4cMOyZadIu9UStlo1O/retA+PstoiAHwX5SFlq1EP/Cb/MGRY6tomzIih8O3F8HHa60911vP6ANDwPONEgD1vdc0XkJ0zrfUYlYj9wVU=
+    properties :
+     x : 38
+     y : 65
+     width : 315
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+ menu :
+  name : Menu
+  identifier : 0x3abf6a2f2d57e0e7
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADLvlG/wQFXuOaQSNESI7h1DpUEWRYdc/9njhlrRL2ey/FNdfA4Kl5YN6ccLAqPZ48fdIwISuDEEPacNClHFnWMlzzglFcbDwxj07+5qwUfpL1uCRlNgyQLD02WLwp9KDs=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABw67qL9bQRMRLY49soPjE5JGHepUB1L1gkGgY3WJCg5qAbvt27aHX2kyvEEDctvy8gC5M+EC+NJdifq4DPdH06jHzy
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+   -
+     internal_properties : CAAAAAgAAAC+uXpEj1oF+PNuE84i98yvmwBRjUQ1lJ4ZQyezFT+GDwe4vNltDddvfkpbmQXiryTXoH/Ps5VtbBcoWnXXqDsjIIvCD/Kmiyh9IXqovQhhJfad3CXdJZ3jnzWnBnRXBumKUXPHd7FU3W6Hrw==
+     code : |1-
+      // detect whether the Esc key is pressed
+      Event("StopScroll","*.*",WM_KEYDOWN)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenAuto
+resources :
+ string_res :
+  identifier : 0x3abf6a1722698354
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
